@@ -10,10 +10,24 @@ public class KaraItem {
     public String MaBaiHat;
     public String TenBaiHat;
     public String LoiBaiHat;
+<<<<<<< HEAD
 
 
 
     public KaraItem(String maBaiHat, String tenBaiHat, String loiBaiHat) {
+=======
+    public int Image;
+
+    public int getImage() {
+        return Image;
+    }
+
+    public void setImage(int image) {
+        Image = image;
+    }
+
+    public KaraItem(String maBaiHat, String tenBaiHat, String loiBaiHat, int imageButton) {
+>>>>>>> c7e91adf369875c79c69381a1c15952be7196da8
         MaBaiHat = maBaiHat;
         TenBaiHat = tenBaiHat;
         LoiBaiHat = loiBaiHat;

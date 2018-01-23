@@ -69,6 +69,7 @@ public class ListAdapter extends BaseAdapter implements Filterable {
         TextView mabaihat;
         TextView tenbaihat;
         TextView loibaihat;
+        ImageButton img;
     }
 
     public Filter getFilter() {
@@ -133,6 +134,7 @@ public class ListAdapter extends BaseAdapter implements Filterable {
             holder.mabaihat=(TextView) convertView.findViewById(R.id.tvMaBaiHat);
             holder.tenbaihat=(TextView) convertView.findViewById(R.id.tvTenBaiHat);
             holder.loibaihat=(TextView) convertView.findViewById(R.id.tvLoiBaiHat);
+            holder.img=(ImageButton) convertView.findViewById(R.id.ibStar);
             convertView.setTag(holder);
         }
         else
@@ -143,6 +145,7 @@ public class ListAdapter extends BaseAdapter implements Filterable {
         holder.mabaihat.setText(employeeArrayList.get(position).getMaBaiHat());
         holder.tenbaihat.setText(employeeArrayList.get(position).getTenBaiHat());
         holder.loibaihat.setText(employeeArrayList.get(position).getTenBaiHat());
+        holder.img.setImageResource(employeeArrayList.get(position).getImage());
 
         return convertView;
 
