@@ -56,9 +56,14 @@ public class MainActivity extends AppCompatActivity {
 //            String song_lyric2 = cursor.getString(4);
 //            String artist = cursor.getString(5);
 //            String artist2 = cursor.getString(6);
-           String imge = cursor.getString(7);
-
-            mangKaraItem.add(new KaraItem(id,song_name,song_lyric,"R.drawable."+imge));
+//           int imge = cursor.getInt(7);
+////           if(imge==0) {
+//
+//               mangKaraItem.add(new KaraItem(id, song_name, song_lyric, R.drawable.ic_star_border_black_24dp));
+////           }
+////           else{
+               mangKaraItem.add(new KaraItem(id,song_name, "àdsg", R.drawable.ic_star_black_24dp));
+////           }
         }
 
 
