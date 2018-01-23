@@ -1,5 +1,7 @@
 package com.example.lamit.karaoke;
 
+import android.widget.ImageButton;
+
 /**
  * Created by LamIT on 22/01/2018.
  */
@@ -8,11 +10,21 @@ public class KaraItem {
     public String MaBaiHat;
     public String TenBaiHat;
     public String LoiBaiHat;
+    public String Image;
 
-    public KaraItem(String maBaiHat, String tenBaiHat, String loiBaiHat) {
+    public String getImage() {
+        return Image;
+    }
+
+    public void setImage(String image) {
+        Image = image;
+    }
+
+    public KaraItem(String maBaiHat, String tenBaiHat, String loiBaiHat, String imageButton) {
         MaBaiHat = maBaiHat;
         TenBaiHat = tenBaiHat;
         LoiBaiHat = loiBaiHat;
+        Image = imageButton;
     }
 
     public String getMaBaiHat() {
