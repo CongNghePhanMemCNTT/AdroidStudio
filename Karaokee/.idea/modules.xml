@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://E:\Adroid\Kraoke\Karaokee\Karaoke.iml" filepath="E:\Adroid\Kraoke\Karaokee\Karaoke.iml" />
       <module fileurl="file://$PROJECT_DIR$/Karaokee.iml" filepath="$PROJECT_DIR$/Karaokee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Karaokee.iml" filepath="$PROJECT_DIR$/Karaokee.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://E:\Adroid\Kraoke\Karaokee\app\app.iml" filepath="E:\Adroid\Kraoke\Karaokee\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
